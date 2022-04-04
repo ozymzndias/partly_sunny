@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Exo:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Archivo+Black&family=Exo:wght@800;900&family=Grape+Nuts&family=Rock+Salt&family=Rubik+Glitch&display=swap');
+
+html {
+    font-size: 14px;
+    scroll-behavior: smooth;
+  }
+  
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  html {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    margin-bottom: 60px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  
